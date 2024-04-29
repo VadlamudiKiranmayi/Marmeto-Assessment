@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmeto Assessment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-container">
+        <div class="main-container">
+            <div class="embrace-sideboard-product-container">
+                <div class="product-image">
+                    <img src="" alt="embrace-sideboard-product-image" id="embraceSideboardProduct">
+                    <div class="thumbnails-container">
+                        <div class="thumbnails">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="product-details-container">
+                    <div class="headings">
+                        <h1 class="product-vendor"></h1>
+                        <h2 class="product-title"></h2>
+                    </div>
+                    <div class="price-container">
+                        <p class="price"></p>
+                        <p class="discount-offered"></p>
+                    </div>
+                    <p class="compare-at-price"></p>
+
+                    <div class="color-container">
+                        <h1 class="color-text">Choose a Color</h1>
+                        <div class="c-container" id="selectColor">
+
+                        </div>
+                    </div>
+
+                    <div class="size-container">
+                        <h1 class="color-text">Choose the Size</h1>
+                        <div class="size-selector">
+
+                        </div>
+                    </div>
+
+                    <div class="quantity-add-container">
+                        <div class="quantity-section">
+                            <b class="increment" onclick="onDecrement()">-</b>
+                            <b class="value" id="productQuantityValue">1</b>
+                            <b class="decrement" onclick="onIncrement()">+</b>
+                        </div>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                    <div class="product-details-added">
+                        <p id="addedProductDetails"></p>
+                    </div>
+
+                    <div class="message-container">
+                        <p class="add-to-cart-message"></p>
+                    </div>
+
+                    <div class="description">
+                        <h3>Description</h3>
+                        <p class="product-description"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
